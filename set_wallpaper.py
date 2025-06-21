@@ -30,6 +30,7 @@ def set_wallpaper(screen_num: int, file_path: str):
         script = f"""
         tell application "System Events"
             tell desktop {screen_num}
+                set the size of the picture to the size of the desktop
                 set picture to "{file_path}"
             end tell
         end tell
