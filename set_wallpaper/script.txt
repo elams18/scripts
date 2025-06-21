@@ -1,0 +1,5 @@
+tell application "System Events"
+    tell desktop 1
+        set picture to "Users/elamathis/Programming/personal/wallpaper/assets/wallpaper.jpg"
+    end tell
+end tell
